@@ -12,5 +12,5 @@ workerModule.init(app);
 app.use(cors());
 const PORT = process.env.PORT||8080
 app.listen(PORT, ()=> {
-    console.log(`server is running on port : ${PORT} and im gay`);
+    console.log(`server is running on port : ${PORT}`);
 })
